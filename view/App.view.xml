@@ -1,0 +1,51 @@
+<mvc:View
+	controllerName="sap.ui.demo.walkthrough.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+	<Shell>
+		<App class="myAppDemoWT">
+			<pages>
+				<Page title="{i18n>Сборка компьютера}">
+					<content>
+					<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>
+					<Table id="idTable" items="{/Invoices}">
+							<columns>
+								<Сolumn>
+									<Text text="ProductName"/>
+								</Сolumn>
+								<Сolumn>
+									<Text text="Quantity"/>
+								</Сolumn>
+								<Сolumn>
+									<Text text="ExtendedPrice"/>
+								</Сolumn>
+								<Сolumn>
+									<Text text="ShipperName"/>
+								</Сolumn>
+								<Сolumn>
+									<Text text="ShippedDate"/>
+								</Сolumn>
+								<Сolumn>
+									<Text text="Photo"/>
+								</Сolumn>
+							</columns>
+								<items>
+										<columnListItem type="Active">
+											<cells>
+												<Text text="{ProductName}"></Text>
+												<Text text="{Quantity}"></Text>
+												<Text text="{ExtendedPrice}"></Text>
+												<Text text="{ShipperName}"></Text>
+												<Text text="{ProductName}"></Text>
+												<image src="{Photo}" width="80px" height="90px"/>
+											</cells>
+										</columnListItem>
+								</items>
+							</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

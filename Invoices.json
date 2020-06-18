@@ -1,0 +1,44 @@
+{
+  "Invoices": [
+	{
+	  "ProductName": "Videocarta",
+	  "Quantity": 30,
+	  "ExtendedPrice": 25000,
+	  "ShipperName": "Fun Inc.",
+	  "ShippedDate": "2015-04-01T00:00:00",
+	  "Photo": "images/video.png"
+	},
+	{
+	  "ProductName": "Processor",
+	  "Quantity": 15,
+	  "ExtendedPrice": 15000,
+	  "ShipperName": "ACME",
+	  "ShippedDate": "2015-02-18T00:00:00",
+	  "Photo": "images/video.png"
+	},
+	{
+	  "ProductName": "Operativka",
+	  "Quantity": 29,
+	  "ExtendedPrice": 4500,
+	  "ShipperName": "ACME",
+	  "ShippedDate": "2015-03-02T00:00:00",
+	  "Photo": "images/video.png"
+	},
+	{
+	  "ProductName": "SSD",
+	  "Quantity": 35,
+	  "ExtendedPrice": 5000,
+	  "ShipperName": "ACME",
+	  "ShippedDate": "2015-04-12T00:00:00",
+	  "Photo": "images/video.png"
+	},
+	{
+	  "ProductName": "HDD",
+	  "Quantity": 100,
+	  "ExtendedPrice": 3000,
+	  "ShipperName": "Fun Inc.",
+	  "ShippedDate": "2015-01-27T00:00:00",
+	  "Photo": "images/video.png"
+	}
+	]
+}
