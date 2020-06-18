@@ -11,27 +11,27 @@
 					<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>
 					<Table id="idTable" items="{/Invoices}">
 							<columns>
-								<Сolumn>
+								<Column>
 									<Text text="ProductName"/>
-								</Сolumn>
-								<Сolumn>
+								</Column>
+								<Column>
 									<Text text="Quantity"/>
-								</Сolumn>
-								<Сolumn>
+								</Column>
+								<Column>
 									<Text text="ExtendedPrice"/>
-								</Сolumn>
-								<Сolumn>
+								</Column>
+								<Column>
 									<Text text="ShipperName"/>
-								</Сolumn>
-								<Сolumn>
+								</Column>
+								<Column>
 									<Text text="ShippedDate"/>
-								</Сolumn>
-								<Сolumn>
+								</Column>
+								<Column>
 									<Text text="Photo"/>
-								</Сolumn>
+								</Column>
 							</columns>
 								<items>
-										<СolumnListItem type="Active">
+										<ColumnListItem type="Active">
 											<cells>
 												<Text text="{ProductName}"></Text>
 												<Text text="{Quantity}"></Text>
@@ -40,7 +40,7 @@
 												<Text text="{ProductName}"></Text>
 												<image src="{Photo}" width="80px" height="90px"/>
 											</cells>
-										</СolumnListItem>
+										</ColumnListItem>
 								</items>
 							</Table>
 					</content>
