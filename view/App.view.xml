@@ -31,7 +31,7 @@
 								</Сolumn>
 							</columns>
 								<items>
-										<columnListItem type="Active">
+										<СolumnListItem type="Active">
 											<cells>
 												<Text text="{ProductName}"></Text>
 												<Text text="{Quantity}"></Text>
@@ -40,7 +40,7 @@
 												<Text text="{ProductName}"></Text>
 												<image src="{Photo}" width="80px" height="90px"/>
 											</cells>
-										</columnListItem>
+										</СolumnListItem>
 								</items>
 							</Table>
 					</content>
