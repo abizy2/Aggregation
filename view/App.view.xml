@@ -9,7 +9,7 @@
 			<pages>
 				<Page title="{i18n>computer_complectation}">
 					<content> 
-					<Table id="idTable" items="{invoice/Invoices}">
+					<Table id="idTable" items="{invoice>/Invoices}">
 							<columns>
 								<Column>
 									<Text text="ProductName"/>
@@ -37,7 +37,7 @@
 												<Text text="{invoice>Quantity}"></Text>
 												<Text text="{invoice>ExtendedPrice}"></Text>
 												<Text text="{invoice>ShipperName}"></Text>
-												<Text text="{invoice>ProductName}"></Text>
+												<Text text="{invoice>ShippedDate}"></Text>
 												<Image src="{invoice>Photo}" width="80px" height="90px"/>
 											</cells>
 										</ColumnListItem>
