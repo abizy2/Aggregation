@@ -7,9 +7,9 @@
 	<Shell>
 		<App class="myAppDemoWT">
 			<pages>
-				<Page title="{i18n>Сборка компьютера}">
-					<content>
-					<Table id="idTable" items="{/Invoices}">
+				<Page title="{i18n>computer_complectation}">
+					<content> 
+					<Table id="idTable" items="{invoice/Invoices}">
 							<columns>
 								<Column>
 									<Text text="ProductName"/>
@@ -33,12 +33,12 @@
 								<items>
 										<ColumnListItem type="Active">
 											<cells>
-												<Text text="{ProductName}"></Text>
-												<Text text="{Quantity}"></Text>
-												<Text text="{ExtendedPrice}"></Text>
-												<Text text="{ShipperName}"></Text>
-												<Text text="{ProductName}"></Text>
-												<Image src="{Photo}" width="80px" height="90px"/>
+												<Text text="{invoice>ProductName}"></Text>
+												<Text text="{invoice>Quantity}"></Text>
+												<Text text="{invoice>ExtendedPrice}"></Text>
+												<Text text="{invoice>ShipperName}"></Text>
+												<Text text="{invoice>ProductName}"></Text>
+												<Image src="{invoice>Photo}" width="80px" height="90px"/>
 											</cells>
 										</ColumnListItem>
 								</items>
